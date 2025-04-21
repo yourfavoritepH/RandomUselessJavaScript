@@ -1,0 +1,7 @@
+//Useless JavaScript #2
+var sheepCounted = 0;
+for (sheepCounted < 10) {
+sheepCounted++
+console.log("I have counted" + sheepCounted + "sheep!");
+}
+console.log("Zzzzzzzzzz");
