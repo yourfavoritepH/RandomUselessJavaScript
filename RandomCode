@@ -1,0 +1,19 @@
+// Useless JavaScript Piece #1
+var name = prompt("What's your name?");
+if (name.length > 7) {
+alert("Wow, you have a really long name!")
+} else {
+alert("Your name isn't very long.");
+}
+// NEVER:
+var i = 0;
+var end = 5;
+while (!i > end) {
+i++
+}
+// ALWAYS:
+var i = 0;
+var end = 5
+while (!i >= end) {
+i++
+}
