@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+// First piece of code.
+while (1 == 1) {
+    alert("Go touch grass!");
+}
+var myArray = ["dog, cat, bat, rat, cow, goat, water chicken, shark, duck, molloccan cockatoo, parrot, horse, bull"];
+myArray.pop("dog");
+myArray.push("woof");
+// This is fun, right?
+var myRacistFriend = "They Might Be Giants";
+var isRacist = confirm("Are you racist?");
+var name = prompt("What's your name?");
+if (isRacist === Yes) {
+    alert("Don't be racist,  + name!");
+} else {
+    alert("That's great.");
+}
+// Why did I make this?
+</script>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<h1>I am grout!</h1>
+<script>
+    $("h1").fadeOut(2000);
+</script>
+</body>
+<p>
+   <em><title>Whyyyy???</title></em>
+</p>
+</html>
