@@ -2,6 +2,7 @@
 <head>
     <title>Snake!</title>
 </head>
+    
 <body>
     <canvas id="canvas" width="500" height="500"></canvas>
 
@@ -52,7 +53,7 @@
       ctx.fillText("Game Over", width / 2, height / 2);
     };
 
-    // Draw a circle (using the function from Chapter 14)
+    // Draw a circle
     var circle = function (x, y, radius, fillCircle) {
       ctx.beginPath();
       ctx.arc(x, y, radius, 0, Math.PI * 2, false);
